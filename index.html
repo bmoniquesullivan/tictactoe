@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic-Tac-Toe Game - JavaScript</title>
+  </head>
+  <body>
+    <div class="container" id="main">
+      <h1>TIC-TAC-TOE</h1>
+      <span id="turn">Play</span>
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+      <div class="box" id="box4"></div>
+      <div class="box" id="box5"></div>
+      <div class="box" id="box6"></div>
+      <div class="box" id="box7"></div>
+      <div class="box" id="box8"></div>
+      <div class="box" id="box9"></div>
+    </div>
+
+    <button onclick="playAgain()">Play Again</button>
+    <h3>Rules for Tic-Tac-Toe:</h3>
+    <ul>
+      <li>
+        The first player will be Player X, then the next player will be Player 0
+      </li>
+      <li>Players take turns putting their marks in empty squares.</li>
+      <li>
+        The first player to get 3 of her marks in a row (up, down, across, or
+        diagonally) is the winner.
+      </li>
+      <li>
+        When all 9 squares are full, the game is over. If no player has 3 marks
+        in a row, the game ends in a tie.
+      </li>
+      <li>
+        To start playing, Player X just needs to click on the first square to
+        fill it.
+      </li>
+      <li>To start a new game, just click on "Play Again"</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
